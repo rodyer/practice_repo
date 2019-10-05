@@ -1,31 +1,23 @@
-## Install Anaconda (for Jupyter Notebook)
-1) Install Anaconda
-    - Mac Users: https://docs.anaconda.com/anaconda/install/mac-os/
-    - Windows: Use the IT Catalog 
-        https://itcatalog/Shopping/requestItem/search?query=anaconda
-2) Once installed, open Anaconda Navigator
-3) Install packages as listed below which will be used in homeworks:
-    - numpy
-    - pandas 
-    - sklearn
-    - matplotlib
-    - seaborn
-    - xlrd
- ``` bash
- conda install -c anaconda numpy
- conda install -c anaconda pandas
- conda install scikit-learn
- conda install -c conda-forge matplotlib
- conda install seaborn
- conda install -c anaconda xlrd
- ```
-4) In your existing GitHub repository commit a notebook called `hello-world.ipynb` into a your `week-9` folder. Utilize the following video for example usage of the interface.
-    - https://www.youtube.com/watch?v=-MyjG00la2k
+# Proposal Template
 
-## Begin your capstone proposal
+## Business Problem
 
-In order to bring everything you've learned together, you are going to be working on a real-world problem at RV.  The first step we are going to take is 
+Describe your project, what business will it support?  What is problem you are trying to solve?  What has been the existing work to try to solve this problem?
 
-1) In the root of your GitHub repository, ensure there is a `capstone` folder
-2) In that folder, commit a file called `proposal.md`
-3) Inside `proposal.md` begin a document with the following sections. Here is the [proposal template](https://github.com/RedVentures/homegrown-2019/blob/master/Curriculum_and_Homework/200-Level/capstone/proposal.md). 
+## Data
+
+What data will be required to solve this problem?  What types of features will be available to you?  What databases, tables contain the data you are concerned about?  Are there experts at RV that can help to describe the data you are concerned about?
+
+## Approach
+
+How to do you plan to collect the data?  How will you visualize the information?  What will you be looking for?  
+
+## Deliverables
+
+What are your intended deliverables?  Who is your intended audience?  What action to you expect them to take?
+
+*All projects should include a Jupyter notebook, 1-2 page final paper, 5 slide deck, and 5 minute presentation. NO MORE THAN ANY OF THIS!*
+
+## Impact and Evaluation
+
+How will you know if your project is successful or not?  What metrics or change in behavior might you use to evaluate your impact?
